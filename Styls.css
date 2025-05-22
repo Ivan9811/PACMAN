@@ -19,7 +19,7 @@ h1 {
 }
 
 .wall {
-    background-color: darkred;
+    background-color: rgb(52, 139, 12);
     border: 2px solid #0b0501;
 }
 
@@ -40,8 +40,11 @@ h1 {
 }
 
 .pacman {
-    background: yellow;
-    border-radius: 50%;
+    background-image: url('imagen/l3K.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .ghost {
@@ -50,10 +53,22 @@ h1 {
 }
 
 .red {
-    background-color: red;
+    background-image: url('imagen/fantasmaRojo1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .white {
-    background-color: white;
+    background-image: url('imagen/fantasmaBlanco\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.blue {
+    background-image: url('imagen/fantasmaAzul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
